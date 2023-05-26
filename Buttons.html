@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="Buttons.css">
+</head>
+<body>
+  <div id="container">
+    <div id="status-box">
+      <p id="status-text"></p>
+    </div>
+    <div class="grid">
+      <h1>Enter Your Fault Code: </h1>
+      <div class="fault-code-row">
+        <button class="button"> Fault Code: F27 </button>
+        <button class="button"> Fault Code: F08 </button>
+        <button class="button"> Fault Code: F04 </button>
+      </div>
+      <h1>Select the steps the Technician has instructions you to take: </h1>
+      <div class="button-row">
+        <button class="button"> Open the circuit </button>   <!-- F27 -->
+        <button class="button"> Check encoder connection </button>                    <!-- F08 -->
+        <button class="button"> Check wiring of limit switches </button>             <!-- F27 -->
+        <button class="button"> Check technical data of braking resistor </button>    <!-- F04 -->
+        <button class="button"> Reduce load </button>                                 <!-- F08 -->
+        <button class="button"> Increase deceleration time</button>                   <!-- F08 -->
+        <button class="button"> Check supply cable to braking resistor </button>      <!-- F04 -->
+        <button class="button"> Check current limitation </button>                    <!-- F08 -->
+        <button class="button"> Reprogram terminals </button>                         <!-- F27 -->
+        <button class="button"> Check motor cable and motor </button>                 <!-- F08 -->      
+        <button class="button"> Extend deceleration ramps </button>                   <!-- F04 -->
+        <button class="button"> Limit switches are swapped over in relation to direction of rotation of motor </button>  <!-- F27 -->
+        <button class="button"> Replace the MOVIDRIVE unit </button>                           <!-- F04 -->
+        <button class="button"> Check line phases </button>                           <!-- F08 -->
+      </div>
+    </div>
+  </div>
+  <script src="Buttons.js"></script>
+</body>
+</html>
