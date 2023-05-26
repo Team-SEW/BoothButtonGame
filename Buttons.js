@@ -6,30 +6,28 @@ const statusText = document.getElementById('status-text');
 const greenButtons = [
   'Fault Code: F04',
   'Extend deceleration ramps',
-  'Check feeder cable to braking resistor',
+  'Check supply cable to braking resistor',
   'Check technical data of braking resistor',
-  'Replace Movidrive'
+  'Replace the MOVIDRIVE unit'
 ];
 
 // const greenButtons = [
-//     'Fault Code: F27',
-//     'Emergency Stop Pressed',
-//     'Open circuit/both limit switches missing.',
-//     'Limit switches are swapped over in relation to direction of rotation of motor.',
-//     'Check wiring of limit switches.',
-//     'Reprogram terminals'
-// ];   
-        
-// const greenButtons = [
 //     'Fault Code: F08',
-//     'Reduce load',
-//     'Increase deceleration time',
-//     'Check encoder connection',
-//     'Check current limitation',
-//     'Extend ramps if necessary',
-//     'Check motor cable and motor',
-//     'Check line phases'
+    // 'Reduce load',
+    // 'Increase deceleration time',
+    // 'Check current limitation',
+    // 'Extend deceleration ramps',
+    // 'Check motor cable and motor',
+    // 'Check line phases'
 // ];  
+
+// const greenButtons = [
+    // 'Fault Code: F27',
+    // 'Open the circuit',
+    // 'Limit switches are swapped over in relation to direction of rotation of motor',
+    // 'Check wiring of limit switches',
+    // 'Reprogram terminals'
+// ];   
 
 buttons.forEach(button => {
   button.addEventListener('click', () => {
