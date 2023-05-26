@@ -3,23 +3,25 @@ body {
   }
   
   .grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
-  }
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+
+.fault-code-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  grid-gap: 10px;
+}
+
+.button-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
   
-  .fault-code-row {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-  }
-  
-  .button-row {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 10px;
-  }
-  
+}
+
   
   .button {
     width: 250px;
@@ -35,16 +37,20 @@ body {
     padding-left: 20px;
     font-family: 'Poppins';
     font-size: 14px;
+    border: none;
+    outline: none;
+    background-color:  rgba(255, 255, 255, 0.8);
   }
   
   .button:hover {
     width: 260px;
     font-weight: bold;
     cursor: pointer;
+    background-color: #7c7c7c;
   }
   
   .button.highlighted {
-    background-color: var(--color-accent);
+    background-color: #ce1212;
     color: white;
   }
   
@@ -71,4 +77,11 @@ body {
     font-family: 'Poppins';
     font-size: 24px;
     font-weight: bold;
+  }
+
+  h1 {
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
   }
