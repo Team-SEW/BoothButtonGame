@@ -3,25 +3,25 @@ const statusBox = document.getElementById('status-box');
 const statusText = document.getElementById('status-text');
 
 // Define an array of button texts that should trigger the box turning green
-// const greenButtons = [
-//   'Fault Code: F04',
-//   'Extend deceleration ramps',
-//   'Check supply cable to braking resistor',
-//   'Check technical data of braking resistor',
-//   'Replace the MOVIDRIVE unit'
-// ];
+const F04Buttons = [
+  'Fault Code: F04',
+  'Extend deceleration ramps',
+  'Check supply cable to braking resistor',
+  'Check technical data of braking resistor',
+  'Replace the MOVIDRIVE unit'
+];
 
-// const greenButtons = [
-//     'Fault Code: F08',
-//     'Reduce load',
-//     'Increase deceleration time',
-//     'Check current limitation',
-//     'Extend deceleration ramps',
-//     'Check motor cable and motor',
-//     'Check line phases'
-// ];  
+const F08Buttons = [
+    'Fault Code: F08',
+    'Reduce load',
+    'Increase deceleration time',
+    'Check current limitation',
+    'Extend deceleration ramps',
+    'Check motor cable and motor',
+    'Check line phases'
+];  
 
-const greenButtons = [
+const F27Buttons = [
     'Fault Code: F27',
     'Open the circuit/both limit switches are missing',
     'Limit switches are swapped over in relation to direction of rotation of motor',
